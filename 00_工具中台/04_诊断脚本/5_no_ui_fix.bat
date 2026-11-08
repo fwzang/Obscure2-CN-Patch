@@ -1,0 +1,20 @@
+@echo off
+setlocal
+set "GD=D:\SteamLibrary\steamapps\common\Obscure2"
+
+set O2_FIX_UI_ANY=0
+
+echo ===== run with O2_FIX_UI_ANY=0 (UI pull-back OFF) =====
+
+tasklist /fi "imagename eq Obscure2.exe" 2>nul | findstr /i "Obscure2.exe" >nul
+if not errorlevel 1 (
+  echo [ERROR] Game is running. Exit it completely first.
+  pause
+  exit /b 1
+)
+
+start "" "%GD%\Obscure2.exe"
+
+echo Use when the pull-back hurts normal 3D effects.
+
+pause

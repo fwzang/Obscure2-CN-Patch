@@ -1,0 +1,29 @@
+HTTP/1.1 200 Connection Established
+
+HTTP/1.1 206 PARTIAL CONTENT
+Server: nginx/1.22.1
+Date: Sun, 18 Oct 2026 15:51:08 GMT
+Content-Type: application/octet-stream
+Content-Length: 1
+Connection: keep-alive
+Last-Modified: Mon, 11 Nov 2024 03:58:52 GMT
+ETag: "0x8DD0205282AA2AB"
+x-ms-request-id: 8b6c2924-c01e-0025-6217-5d4829000000
+x-ms-version: 2018-11-09
+x-ms-creation-time: Mon, 11 Nov 2024 03:58:52 GMT
+x-ms-lease-status: unlocked
+x-ms-lease-state: available
+x-ms-blob-type: BlockBlob
+x-ms-server-encrypted: true
+x-ms-access-tier: Hot
+x-ms-access-tier-inferred: true
+Via: 1.1 varnish, 1.1 varnish
+Accept-Ranges: bytes
+Age: 183
+X-Served-By: cache-iad-kiad7000120-IAD, cache-lcy-egml8630073-LCY
+X-Cache: HIT, HIT
+X-Cache-Hits: 13, 0
+X-Timer: S1792338668.394051,VS0,VE1
+Content-Disposition: attachment; filename=ChillDuanSans.v1.30.zip
+Content-Range: bytes 0-0/135419441
+
